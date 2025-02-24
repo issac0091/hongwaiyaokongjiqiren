@@ -1,6 +1,6 @@
 {
     "name": "红外遥控机器人",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "",
     "dependencies": {
         "core": "*",
