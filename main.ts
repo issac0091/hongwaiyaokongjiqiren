@@ -16,5 +16,5 @@ makerbit.onIrButton(IrButton.Down, IrButtonAction.Released, function () {
 basic.showIcon(IconNames.Heart)
 makerbit.connectIrReceiver(DigitalPin.P8, IrProtocol.Keyestudio)
 basic.forever(function () {
-	
+    basic.showString("" + (images.iconImage(IconNames.Heart)))
 })
